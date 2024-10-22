@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocokies | My Product</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><img src="assets/logococo.png" alt="" /></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Product</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="assets/logococo.png" alt="" /></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Product</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/kukis.png" alt="HKenn profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Introducing</p>
+        <h1 class="title">Cocokies</h1>
+        <p class="section__text__p2">
+          Crafted from Coconut, Created for Cookie Lovers.
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="location.href='./#about'">
+            Product
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/ig2.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/thrqadtyoo_/'"
+          />
+          <img
+            src="./assets/wa.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://wa.me/+6285777334921/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Discover More</p>
+      <h1 class="title">Product</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/cukis.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Cocokies dari Sall Cookies menawarkan camilan sehat berbahan dasar
+              ampas kelapa, yang merupakan hasil sampingan dari proses pembuatan
+              santan. Dengan tekstur renyah dan rasa gurih alami dari kelapa,
+              cookies ini kaya akan serat, protein, dan lemak sehat,
+              menjadikannya pilihan yang bernutrisi. Selain itu, Cocokies juga
+              mendukung upaya ramah lingkungan dengan memanfaatkan sisa bahan
+              makanan secara optimal. Ideal untuk dinikmati bersama teh atau
+              kopi, Cocokies adalah pilihan tepat bagi siapa saja yang
+              menginginkan camilan lezat dan bermanfaat bagi kesehatan.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="contact">
+      <div class="contact-info-upper-container">
+        <p>
+          Keunggulan produk cookies ampas kelapa antara lain: <br />
+          <br />
+          -Ramah lingkungan: Menggunakan ampas kelapa yang merupakan limbah dari
+          proses pembuatan santan, membantu mengurangi limbah makanan.
+          <br />
+          <br />
+          -Kaya serat: Ampas kelapa mengandung serat tinggi yang baik untuk
+          pencernaan. <br />
+          <br />
+          -Rendah gluten: Cocok bagi orang yang menghindari atau sensitif
+          terhadap gluten. <br />
+          <br />
+          Sehat dan bergizi: Mengandung lemak sehat dan protein yang bermanfaat
+          bagi tubuh. <br />
+          <br />
+          -Rasa unik dan alami: Cookies ini menawarkan rasa gurih dan renyah
+          alami dari kelapa, berbeda dari cookies pada umumnya.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/ig2.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://www.instagram.com/thrqadtyoo_/">Instagram</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/wa.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/+6285777334921/">Whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Faisal Thoriq Adityo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
